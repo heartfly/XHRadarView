@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289F83551A70CD8A00B75BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F83541A70CD8A00B75BAA /* main.m */; };
+		289F83581A70CD8A00B75BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F83571A70CD8A00B75BAA /* AppDelegate.m */; };
+		289F835B1A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 289F83591A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodeld */; };
+		289F835E1A70CD8A00B75BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F835D1A70CD8A00B75BAA /* ViewController.m */; };
+		289F83611A70CD8A00B75BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289F835F1A70CD8A00B75BAA /* Main.storyboard */; };
+		289F83631A70CD8A00B75BAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289F83621A70CD8A00B75BAA /* Images.xcassets */; };
+		289F83661A70CD8A00B75BAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289F83641A70CD8A00B75BAA /* LaunchScreen.xib */; };
+		289F83721A70CD8A00B75BAA /* XHRadarViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F83711A70CD8A00B75BAA /* XHRadarViewDemoTests.m */; };
+		289F83821A70CE4400B75BAA /* XHRadarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F837D1A70CE4400B75BAA /* XHRadarIndicatorView.m */; };
+		289F83831A70CE4400B75BAA /* XHRadarPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F837F1A70CE4400B75BAA /* XHRadarPointView.m */; };
+		289F83841A70CE4400B75BAA /* XHRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F83811A70CE4400B75BAA /* XHRadarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289F836C1A70CD8A00B75BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289F83471A70CD8A00B75BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289F834E1A70CD8A00B75BAA;
+			remoteInfo = XHRadarViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289F834F1A70CD8A00B75BAA /* XHRadarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHRadarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289F83531A70CD8A00B75BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289F83541A70CD8A00B75BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289F83561A70CD8A00B75BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		289F83571A70CD8A00B75BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		289F835A1A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XHRadarViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		289F835C1A70CD8A00B75BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		289F835D1A70CD8A00B75BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		289F83601A70CD8A00B75BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289F83621A70CD8A00B75BAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		289F83651A70CD8A00B75BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		289F836B1A70CD8A00B75BAA /* XHRadarViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHRadarViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289F83701A70CD8A00B75BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289F83711A70CD8A00B75BAA /* XHRadarViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRadarViewDemoTests.m; sourceTree = "<group>"; };
+		289F837C1A70CE4400B75BAA /* XHRadarIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarIndicatorView.h; sourceTree = "<group>"; };
+		289F837D1A70CE4400B75BAA /* XHRadarIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarIndicatorView.m; sourceTree = "<group>"; };
+		289F837E1A70CE4400B75BAA /* XHRadarPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarPointView.h; sourceTree = "<group>"; };
+		289F837F1A70CE4400B75BAA /* XHRadarPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarPointView.m; sourceTree = "<group>"; };
+		289F83801A70CE4400B75BAA /* XHRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRadarView.h; sourceTree = "<group>"; };
+		289F83811A70CE4400B75BAA /* XHRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRadarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289F834C1A70CD8A00B75BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289F83681A70CD8A00B75BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289F83461A70CD8A00B75BAA = {
+			isa = PBXGroup;
+			children = (
+				289F83511A70CD8A00B75BAA /* XHRadarViewDemo */,
+				289F836E1A70CD8A00B75BAA /* XHRadarViewDemoTests */,
+				289F83501A70CD8A00B75BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289F83501A70CD8A00B75BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289F834F1A70CD8A00B75BAA /* XHRadarViewDemo.app */,
+				289F836B1A70CD8A00B75BAA /* XHRadarViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289F83511A70CD8A00B75BAA /* XHRadarViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				289F837B1A70CE4400B75BAA /* XHRadarView */,
+				289F83561A70CD8A00B75BAA /* AppDelegate.h */,
+				289F83571A70CD8A00B75BAA /* AppDelegate.m */,
+				289F835C1A70CD8A00B75BAA /* ViewController.h */,
+				289F835D1A70CD8A00B75BAA /* ViewController.m */,
+				289F835F1A70CD8A00B75BAA /* Main.storyboard */,
+				289F83621A70CD8A00B75BAA /* Images.xcassets */,
+				289F83641A70CD8A00B75BAA /* LaunchScreen.xib */,
+				289F83591A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodeld */,
+				289F83521A70CD8A00B75BAA /* Supporting Files */,
+			);
+			path = XHRadarViewDemo;
+			sourceTree = "<group>";
+		};
+		289F83521A70CD8A00B75BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289F83531A70CD8A00B75BAA /* Info.plist */,
+				289F83541A70CD8A00B75BAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		289F836E1A70CD8A00B75BAA /* XHRadarViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				289F83711A70CD8A00B75BAA /* XHRadarViewDemoTests.m */,
+				289F836F1A70CD8A00B75BAA /* Supporting Files */,
+			);
+			path = XHRadarViewDemoTests;
+			sourceTree = "<group>";
+		};
+		289F836F1A70CD8A00B75BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289F83701A70CD8A00B75BAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		289F837B1A70CE4400B75BAA /* XHRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				289F837C1A70CE4400B75BAA /* XHRadarIndicatorView.h */,
+				289F837D1A70CE4400B75BAA /* XHRadarIndicatorView.m */,
+				289F837E1A70CE4400B75BAA /* XHRadarPointView.h */,
+				289F837F1A70CE4400B75BAA /* XHRadarPointView.m */,
+				289F83801A70CE4400B75BAA /* XHRadarView.h */,
+				289F83811A70CE4400B75BAA /* XHRadarView.m */,
+			);
+			path = XHRadarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289F834E1A70CD8A00B75BAA /* XHRadarViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289F83751A70CD8A00B75BAA /* Build configuration list for PBXNativeTarget "XHRadarViewDemo" */;
+			buildPhases = (
+				289F834B1A70CD8A00B75BAA /* Sources */,
+				289F834C1A70CD8A00B75BAA /* Frameworks */,
+				289F834D1A70CD8A00B75BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHRadarViewDemo;
+			productName = XHRadarViewDemo;
+			productReference = 289F834F1A70CD8A00B75BAA /* XHRadarViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		289F836A1A70CD8A00B75BAA /* XHRadarViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289F83781A70CD8A00B75BAA /* Build configuration list for PBXNativeTarget "XHRadarViewDemoTests" */;
+			buildPhases = (
+				289F83671A70CD8A00B75BAA /* Sources */,
+				289F83681A70CD8A00B75BAA /* Frameworks */,
+				289F83691A70CD8A00B75BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289F836D1A70CD8A00B75BAA /* PBXTargetDependency */,
+			);
+			name = XHRadarViewDemoTests;
+			productName = XHRadarViewDemoTests;
+			productReference = 289F836B1A70CD8A00B75BAA /* XHRadarViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289F83471A70CD8A00B75BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "邱星豪";
+				TargetAttributes = {
+					289F834E1A70CD8A00B75BAA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					289F836A1A70CD8A00B75BAA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 289F834E1A70CD8A00B75BAA;
+					};
+				};
+			};
+			buildConfigurationList = 289F834A1A70CD8A00B75BAA /* Build configuration list for PBXProject "XHRadarViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289F83461A70CD8A00B75BAA;
+			productRefGroup = 289F83501A70CD8A00B75BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289F834E1A70CD8A00B75BAA /* XHRadarViewDemo */,
+				289F836A1A70CD8A00B75BAA /* XHRadarViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289F834D1A70CD8A00B75BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289F83611A70CD8A00B75BAA /* Main.storyboard in Resources */,
+				289F83661A70CD8A00B75BAA /* LaunchScreen.xib in Resources */,
+				289F83631A70CD8A00B75BAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289F83691A70CD8A00B75BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289F834B1A70CD8A00B75BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289F83831A70CE4400B75BAA /* XHRadarPointView.m in Sources */,
+				289F83821A70CE4400B75BAA /* XHRadarIndicatorView.m in Sources */,
+				289F83841A70CE4400B75BAA /* XHRadarView.m in Sources */,
+				289F835B1A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodeld in Sources */,
+				289F83581A70CD8A00B75BAA /* AppDelegate.m in Sources */,
+				289F835E1A70CD8A00B75BAA /* ViewController.m in Sources */,
+				289F83551A70CD8A00B75BAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289F83671A70CD8A00B75BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289F83721A70CD8A00B75BAA /* XHRadarViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289F836D1A70CD8A00B75BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289F834E1A70CD8A00B75BAA /* XHRadarViewDemo */;
+			targetProxy = 289F836C1A70CD8A00B75BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289F835F1A70CD8A00B75BAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289F83601A70CD8A00B75BAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289F83641A70CD8A00B75BAA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289F83651A70CD8A00B75BAA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289F83731A70CD8A00B75BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		289F83741A70CD8A00B75BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289F83761A70CD8A00B75BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHRadarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		289F83771A70CD8A00B75BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHRadarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		289F83791A70CD8A00B75BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XHRadarViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHRadarViewDemo.app/XHRadarViewDemo";
+			};
+			name = Debug;
+		};
+		289F837A1A70CD8A00B75BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XHRadarViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHRadarViewDemo.app/XHRadarViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289F834A1A70CD8A00B75BAA /* Build configuration list for PBXProject "XHRadarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289F83731A70CD8A00B75BAA /* Debug */,
+				289F83741A70CD8A00B75BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289F83751A70CD8A00B75BAA /* Build configuration list for PBXNativeTarget "XHRadarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289F83761A70CD8A00B75BAA /* Debug */,
+				289F83771A70CD8A00B75BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289F83781A70CD8A00B75BAA /* Build configuration list for PBXNativeTarget "XHRadarViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289F83791A70CD8A00B75BAA /* Debug */,
+				289F837A1A70CD8A00B75BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		289F83591A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				289F835A1A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodel */,
+			);
+			currentVersion = 289F835A1A70CD8A00B75BAA /* XHRadarViewDemo.xcdatamodel */;
+			path = XHRadarViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 289F83471A70CD8A00B75BAA /* Project object */;
+}
