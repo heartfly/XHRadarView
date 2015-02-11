@@ -37,6 +37,7 @@
     CGContextClosePath(context);
     CGContextDrawPath(context, kCGPathFillStroke); //绘制路径
     
+    //多个小扇形构造渐变的大扇形
     for (int i = 2; i<=30; i++) {
         //画扇形，也就画圆，只不过是设置角度的大小，形成一个扇形
         UIColor *aColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:i/450.0f];
