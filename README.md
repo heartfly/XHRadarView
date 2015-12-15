@@ -1,6 +1,9 @@
 # XHRadarView
 Implementation of an animating RADAR  effect
 
+# Demo
+![Demo gif](doc/XHRadarViewScreenCap.gif)
+
 # Installation
 ```
 pod "XHRadarView", :git => "https://github.com/heartfly/XHRadarView.git"
