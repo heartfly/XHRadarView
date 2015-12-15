@@ -2,7 +2,7 @@
 Implementation of an animating RADAR  effect
 
 # Demo
-![Demo gif](doc/screenCap.gif)
+![Demo gif](Demo/screenCap.gif)
 
 # Installation
 ```
