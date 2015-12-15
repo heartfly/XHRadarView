@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "http://172.16.0.245:2345/Apple/iOS_UserCenter.git"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/heartfly/XHRadarView.git"
   s.license          = 'MIT'
   s.author           = { "邱星豪" => "qiuxh@2345.com" }
   s.source           = { :git => "https://github.com/heartfly/XHRadarView.git" }
