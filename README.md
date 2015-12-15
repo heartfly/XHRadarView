@@ -3,7 +3,7 @@ Implementation of an animating RADAR  effect
 
 # Installation
 ```
-pod install 'XHRadarView'
+pod 'XHRadarView'
 ```
 
 # Usage
