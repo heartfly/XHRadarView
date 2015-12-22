@@ -1,5 +1,5 @@
 # XHRadarView
-Implementation of an animating RADAR  effect
+Implement an animating RADAR  effect
 
 # Demo
 ![Demo gif](Demo/screenCap.gif)
