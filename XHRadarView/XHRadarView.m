@@ -42,7 +42,7 @@
 
 - (void)setup {
     if (!self.indicatorView) {
-        XHRadarIndicatorView *indicatorView = [[XHRadarIndicatorView alloc] init];
+        XHRadarIndicatorView *indicatorView = [[XHRadarIndicatorView alloc] initWithFrame:self.bounds];
         [self addSubview:indicatorView];
         _indicatorView = indicatorView;
     }
