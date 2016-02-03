@@ -14,6 +14,10 @@
 #define RADAR_DEFAULT_SECTIONS_NUM 3
 #define RADAR_DEFAULT_RADIUS 100.f
 #define RADAR_ROTATE_SPEED 60.0f
+#define INDICATOR_START_COLOR [UIColor colorWithRed:20.0/255.0 green:120.0/255.0 blue:40.0/255.0 alpha:1]
+#define INDICATOR_END_COLOR [UIColor colorWithRed:200.0/255.0 green:200.0/255.0 blue:200.0/255.0 alpha:0]
+#define INDICATOR_ANGLE 240.0
+#define INDICATOR_CLOCKWISE YES
 #define DEGREES_TO_RADIANS(d) (d * M_PI / 180)
 
 @implementation XHRadarView
@@ -84,6 +88,26 @@
         radius = self.radius;
     }
     
+    CGFloat indicatorAngle = INDICATOR_ANGLE;
+    if (self.indicatorAngle) {
+        indicatorAngle = self.indicatorAngle;
+    }
+    
+    BOOL indicatorClockwise = INDICATOR_CLOCKWISE;
+    if (self.indicatorClockwise) {
+        indicatorClockwise = self.indicatorClockwise;
+    }
+    
+    UIColor *indicatorStartColor = INDICATOR_START_COLOR;
+    if (self.indicatorStartColor) {
+        indicatorStartColor = self.indicatorStartColor;
+    }
+    
+    UIColor *indicatorEndColor = INDICATOR_END_COLOR;
+    if (self.indicatorEndColor) {
+        indicatorEndColor = self.indicatorEndColor;
+    }
+    
     CGFloat sectionRadius = radius/sectionsNum;
     for (int i=0; i<sectionsNum ; i++) {
         /*画圆*/
@@ -102,6 +126,10 @@
         self.indicatorView.frame = self.bounds;
         self.indicatorView.backgroundColor = [UIColor clearColor];
         self.indicatorView.radius = self.radius;
+        self.indicatorView.angle = indicatorAngle;
+        self.indicatorView.clockwise = indicatorClockwise;
+        self.indicatorView.startColor = indicatorStartColor;
+        self.indicatorView.endColor = indicatorEndColor;
     }
     
     if (self.textLabel) {
@@ -128,7 +156,11 @@
 - (void)scan {
     CABasicAnimation* rotationAnimation;
     rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
-    rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
+    BOOL indicatorClockwise = INDICATOR_CLOCKWISE;
+    if (self.indicatorClockwise) {
+        indicatorClockwise = self.indicatorClockwise;
+    }
+    rotationAnimation.toValue = [NSNumber numberWithFloat: (indicatorClockwise?1:-1) * M_PI * 2.0 ];
     rotationAnimation.duration = 360.f/RADAR_ROTATE_SPEED;
     rotationAnimation.cumulative = YES;
     rotationAnimation.repeatCount = INT_MAX;

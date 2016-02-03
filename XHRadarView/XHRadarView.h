@@ -20,6 +20,10 @@
 }
 
 @property (nonatomic, assign) CGFloat radius;           //半径
+@property (nonatomic, strong) UIColor *indicatorStartColor;      //渐变开始颜色
+@property (nonatomic, strong) UIColor *indicatorEndColor;        //渐变结束颜色
+@property (nonatomic, assign) CGFloat indicatorAngle;            //指针渐变角度
+@property (nonatomic, assign) BOOL indicatorClockwise;           //是否顺时针
 @property (nonatomic, strong) UIImage *backgroundImage; //背景图片
 @property (nonatomic, strong) UILabel *textLabel;      //提示标签
 @property (nonatomic, strong) NSString *labelText;      //提示文字

@@ -27,7 +27,7 @@
     radarView.frame = self.view.frame;
     radarView.dataSource = self;
     radarView.delegate = self;
-    radarView.radius = 215;
+    radarView.radius = 200;
     radarView.backgroundColor = [UIColor colorWithRed:0.251 green:0.329 blue:0.490 alpha:1];
     radarView.backgroundImage = [UIImage imageNamed:@"radar_background"];
     radarView.labelText = @"正在搜索附近的目标";
@@ -56,7 +56,7 @@
                     @[@95, @109],
                     @[@170, @180],
                     @[@125, @112],
-                    @[@-150, @165],
+                    @[@-150, @145],
                     @[@-7, @160],
                     ];
     
