@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/holyq/XHRadarView.git"
+  s.homepage         = "https://github.com/imqxh/XHRadarView.git"
   s.license          = 'MIT'
   s.author           = { "邱星豪" => "qiuxh@2345.com" }
-  s.source           = { :git => "https://github.com/holyq/XHRadarView.git" }
+  s.source           = { :git => "https://github.com/imqxh/XHRadarView.git" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '6.0'
