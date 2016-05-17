@@ -6,7 +6,7 @@ Implement an animating RADAR  effect
 
 # Installation
 ```
-pod "XHRadarView", :git => "https://github.com/imqxh/XHRadarView.git"
+pod "XHRadarView", :git => "https://github.com/heartfly/XHRadarView.git"
 ```
 
 # Usage
